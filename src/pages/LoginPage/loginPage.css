@@ -1,0 +1,75 @@
+* {
+  background-color: #44b26f;
+  font-family: "Inter", sans-serif;
+}
+
+form {
+  background-color: #ffffff;
+}
+
+.login-card {
+  background-color: #ffffff;
+  width: 500px;
+  height: 650px;
+  place-items: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.login-card img {
+  width: 240px;
+  height: 40px;
+  margin-top: 150px;
+  margin-bottom: 40px;
+  background-color: inherit;
+}
+
+.login-card .btn {
+  background-color: #44b26f;
+  color: #ffffff;
+  border-color: #44b26f;
+  width: 277px;
+  height: 56px;
+  top: 572px;
+  left: 583px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.login-card input {
+  background-color: #d9d9d9;
+  width: 277px;
+  height: 56px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  border-style: none;
+}
+
+.form-control::placeholder {
+  color: #44b26f;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.btn:active {
+  background-color: #ffffff !important;
+  color: #44b26f !important;
+  border-color: #44b26f !important;
+  border-width: 2px;
+}
+
+.password-input-group {
+  background-color: #ffffff;
+}
+
+i {
+  background-color: #d9d9d9;
+  font-size: 34px;
+}
+
+input:focus {
+  background-color: #d9d9d9 !important;
+  box-shadow: none !important;
+}
