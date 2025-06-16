@@ -46,7 +46,9 @@ function Login() {
                 className={`bi ${
                   showPassword ? "bi-eye-slash-fill" : "bi-eye-fill"
                 }`}
-                style={{ color: "#44b26f" }}
+                style={{
+                  color: "#44b26f",
+                }}
               ></i>
             </InputGroup.Text>
           </InputGroup>

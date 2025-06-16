@@ -1,5 +1,5 @@
 * {
-  background-color: #44b26f;
+  background-color: #44B26F;
   font-family: "Inter", sans-serif;
 }
 
@@ -62,14 +62,31 @@ form {
 
 .password-input-group {
   background-color: #ffffff;
+ 
 }
 
 i {
-  background-color: #d9d9d9;
   font-size: 34px;
 }
 
 input:focus {
-  background-color: #d9d9d9 !important;
+  border:  solid 2px #d9d9d9 !important;
   box-shadow: none !important;
+}
+
+.input-group-text{
+  padding: 0;
+}
+
+.bi-eye-fill,
+.bi-eye-slash-fill {
+  padding: 0.6px 9px 1.2px 9px;
+  margin-right: 1.5px;
+  background-color: #d9d9d9;
+  font-size: 34px;
+}
+
+.password-input-group:focus-within .bi-eye-fill,
+.password-input-group:focus-within .bi-eye-slash-fill {
+  background-color: #ffffff;
 }

@@ -1,0 +1,20 @@
+.custom-hover-table > tbody > tr:hover,
+.custom-hover-table > tbody > tr:hover > td,
+.custom-hover-table tbody tr:hover td i {
+  background-color: #44b26f !important;
+  color: #ffffff !important;
+  transition: 0.3s ease;
+}
+
+.custom-hover-table {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.custom-hover-table td i {
+  background-color: inherit !important;
+  color: inherit !important;
+  display: inline-block;
+}
+
+
