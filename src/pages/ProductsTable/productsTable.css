@@ -1,3 +1,7 @@
+.products-table-page {
+  background-color: #44b26f;
+}
+
 .logo-products-page {
   padding: 20px;
 }
@@ -5,7 +9,6 @@
 .buttons-products-table-page {
   display: flex;
   justify-content: space-between;
-
   margin: 20px 50px;
 }
 

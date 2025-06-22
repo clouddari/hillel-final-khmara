@@ -1,6 +1,9 @@
 import Table from "react-bootstrap/Table";
 import "./table.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { useState } from "react";
+import EditProduct from "../EditProduct";
+import DeleteProduct from "../DeleteProduct";
 
 function TableComponent() {
   const items = [
@@ -41,6 +44,9 @@ function TableComponent() {
     },
   ];
 
+  const [isEditOpen, setIsEditOpen] = useState(false);
+  const [isDeleteOpen, setIsDeleteOpen] = useState(false);
+
   return (
     <>
       <div className="container mt-4">
@@ -58,23 +64,45 @@ function TableComponent() {
           </thead>
           <tbody>
             {items.map((item) => (
-              <tr  className="text-center  align-middle" key={item.id}>
+              <tr className="text-center  align-middle" key={item.id}>
                 <td>{item.id}</td>
                 <td>{item.category}</td>
                 <td>{item.name}</td>
                 <td>{item.quantity}</td>
                 <td>{item.price}</td>
                 <td>
-                  <i className="bi-pencil-fill"></i>
+                  <button onClick={() => setIsEditOpen(true)}>
+                    <i className="bi-pencil-fill"></i>
+                  </button>
                 </td>
                 <td>
-                  <i className="bi-archive-fill"></i>
+                  <button onClick={() => setIsDeleteOpen(true)}>
+                    <i className="bi-archive-fill"></i>
+                  </button>
                 </td>
               </tr>
             ))}
           </tbody>
         </Table>
       </div>
+
+      <EditProduct
+        isOpen={isEditOpen}
+        onClose={() => setIsEditOpen(false)}
+        onSave={() => {
+          console.log("saved!");
+          setIsEditOpen(false);
+        }}
+      />
+
+      <DeleteProduct
+        isDeleteOpen={isDeleteOpen}
+        onClose={() => setIsDeleteOpen(false)}
+        onDelete={() => {
+          console.log("deleted!");
+          setIsDeleteOpen(false);
+        }}
+      />
     </>
   );
 }

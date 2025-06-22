@@ -1,6 +1,9 @@
 * {
-  background-color: #44B26F;
   font-family: "Inter", sans-serif;
+}
+
+.login-page {
+  background-color: #44b26f;
 }
 
 form {
@@ -62,7 +65,6 @@ form {
 
 .password-input-group {
   background-color: #ffffff;
- 
 }
 
 i {
@@ -70,11 +72,11 @@ i {
 }
 
 input:focus {
-  border:  solid 2px #d9d9d9 !important;
+  border: solid 2px #d9d9d9 !important;
   box-shadow: none !important;
 }
 
-.input-group-text{
+.input-group-text {
   padding: 0;
 }
 

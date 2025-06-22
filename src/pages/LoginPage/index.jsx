@@ -11,7 +11,7 @@ function Login() {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <>
+    <div className="login-page">
       <div className="login-card">
         <img src={logo} alt="Company logo" />
 
@@ -58,7 +58,7 @@ function Login() {
           </Button>
         </Form>
       </div>
-    </>
+    </div>
   );
 }
 
