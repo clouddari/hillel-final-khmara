@@ -1,12 +1,57 @@
-# React + Vite
+# 🛍️ Final Project – Rozetka Staff Panel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my final project for the **Front-End Pro** course at **Hillel IT School**.
 
-Currently, two official plugins are available:
+## 📋 Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a web-based admin panel created for internal use by employees of the **Rozetka** store. The application allows staff members to:
 
-## Expanding the ESLint configuration
+- ✅ View the list of available products  
+- ➕ Add new products  
+- 🗑️ Delete existing products  
+- ✏️ Edit product information  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It is built with **React + Vite** and communicates with a custom backend via API.
+
+---
+
+## 🚀 Technologies Used
+
+### ✅ Frontend
+- React  
+- React Final Form  
+- Redux Toolkit  
+- Redux Thunk  
+- Axios  
+- Bootstrap  
+- ESLint  
+- Vite  
+
+### ✅ Backend
+- Node.js  
+- Express.js  
+- JSON Web Token (JWT) for authentication  
+
+---
+
+## 📁 Project Structure
+
+project-root/
+│
+├── client/ # React Frontend
+│ ├── src/ # Source files
+│ ├── dist/ # Production build (ignored in .gitignore)
+│ ├── package.json
+│ └── vite.config.js
+│
+├── server/ # Express Backend
+│ ├── routes/
+│ ├── data/
+│ └── index.js
+│
+└── README.md
+
+
+## 🧠 Author
+
+**Dariia Khmara**  
