@@ -1,0 +1,116 @@
+.products-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  background-color: #44b26f;
+  padding: 30px 0;
+}
+
+.products-preview .card-body .card-title {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  min-height: 42px;
+}
+
+.products-preview .card {
+  border-radius: 0;
+  display: flex;
+}
+
+.products-preview .card-img-top {
+  width: 209px;
+  height: 139px;
+  object-fit: contain;
+  margin: 10px auto;
+}
+
+.products-preview .price {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fc5b00;
+}
+
+.products-preview .price span {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.products-preview .quantity {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.products-preview button {
+  background-color: #ffffff !important;
+  color: #05bc52;
+  border-radius: 0;
+  border: white;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.products-preview button:hover {
+  color: #000000;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.products-preview .price-quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.back-to-table-button {
+  background-color: #44b26f;
+}
+
+.back-to-table-button button {
+  background-color: #ffffff !important;
+  color: #05bc52;
+  border: solid 2px #ffffff;
+  width: 179px;
+  height: 52px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-left: 70px;
+}
+
+.back-to-table-button button i {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 32px;
+  padding: 0;
+  margin-right: 10px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-to-table-button button:hover {
+  color: #000000;
+  border-color: #000000;
+  transition: all 0.3s ease;
+}
+
+.back-to-table-button button:active {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: solid 2px #ffffff !important;
+}
+
+.back-to-table-button button:active i {
+  background-color: #000000;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}

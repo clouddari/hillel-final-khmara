@@ -1,40 +1,43 @@
 * {
   font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .login-page {
   background-color: #44b26f;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-form {
+.login-page form {
   background-color: #ffffff;
 }
 
 .login-card {
   background-color: #ffffff;
   width: 500px;
-  height: 650px;
-  place-items: center;
-  margin: auto;
-  margin-top: 40px;
+  min-height: 650px;
+  padding: 100px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .login-card img {
   width: 240px;
   height: 40px;
-  margin-top: 150px;
   margin-bottom: 40px;
-  background-color: inherit;
 }
 
-.login-card .btn {
+.login-page .login-card .btn {
   background-color: #44b26f;
   color: #ffffff;
-  border-color: #44b26f;
+  border: 2px solid #44b26f;
   width: 277px;
   height: 56px;
-  top: 572px;
-  left: 583px;
   font-size: 24px;
   font-weight: 600;
   margin-top: 25px;
@@ -60,35 +63,26 @@ form {
   background-color: #ffffff !important;
   color: #44b26f !important;
   border-color: #44b26f !important;
-  border-width: 2px;
 }
 
-.password-input-group {
-  background-color: #ffffff;
+.password-input-group:focus-within .bi-eye-fill,
+.password-input-group:focus-within .bi-eye-slash-fill {
+  background-color: #fff;
 }
 
-i {
+.bi-eye-fill,
+.bi-eye-slash-fill {
+  padding: 0.6px 9px 1.2px 9px;
   font-size: 34px;
-}
-
-input:focus {
-  border: solid 2px #d9d9d9 !important;
-  box-shadow: none !important;
+  background-color: #d9d9d9;
+  margin-right: 1.5px;
 }
 
 .input-group-text {
   padding: 0;
 }
 
-.bi-eye-fill,
-.bi-eye-slash-fill {
-  padding: 0.6px 9px 1.2px 9px;
-  margin-right: 1.5px;
-  background-color: #d9d9d9;
-  font-size: 34px;
-}
-
-.password-input-group:focus-within .bi-eye-fill,
-.password-input-group:focus-within .bi-eye-slash-fill {
-  background-color: #ffffff;
+.login-page input:focus {
+  border: 2px solid #d9d9d9 !important;
+  box-shadow: none !important;
 }

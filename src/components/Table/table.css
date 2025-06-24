@@ -1,9 +1,54 @@
+.custom-hover-table {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 872px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.custom-hover-table th,
+.custom-hover-table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 145px;
+}
+
+.action-buttons {
+  padding: 0;
+  white-space: nowrap;
+}
+
+.action-buttons button {
+  margin: 0 4px;
+  padding: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.custom-hover-table tbody tr:nth-child(odd) {
+  background-color: #d9d9d9;
+  color: white;
+}
+
+.custom-hover-table tbody tr:nth-child(even) {
+  background-color: #0ec86f;
+  color: #a58f8f;
+}
+
+.text-center {
+  background-color: #0ec86f;
+}
+
 .custom-hover-table > tbody > tr:hover,
 .custom-hover-table > tbody > tr:hover > td,
 .custom-hover-table tbody tr:hover td i {
-  color: #ffffff !important;
+  color: #000000 !important;
   transition: 0.3s ease;
-  background: transparent;
 }
 
 .custom-hover-table {
@@ -13,18 +58,26 @@
   border: none;
 }
 
+.custom-hover-table th {
+  padding: 10px 22px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.custom-hover-table td {
+  padding: 8px 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .custom-hover-table button {
   border: none;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 .custom-hover-table td i {
   background-color: transparent !important;
   color: #000000 !important;
   display: inline-block;
-  font-size: 32px;
-}
-
-.custom-hover-table tr:hover button {
-  background-color: transparent !important;
+  font-size: 16px;
 }

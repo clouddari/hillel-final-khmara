@@ -1,15 +1,13 @@
 .products-table-page {
   background-color: #44b26f;
-}
-
-.logo-products-page {
-  padding: 20px;
+  min-height: 100vh;
+  padding-bottom: 30px;
 }
 
 .buttons-products-table-page {
   display: flex;
   justify-content: space-between;
-  margin: 20px 50px;
+  margin: auto 80px;
 }
 
 .buttons-products-table-page button {
