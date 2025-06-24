@@ -33,6 +33,9 @@ It is built with **React + Vite** and communicates with a custom backend via API
 - JSON Web Token (JWT) for authentication  
 
 ---
+To access the app: 
+username - admin
+pass - 1234
 
 ## 🧠 Author
 
