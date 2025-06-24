@@ -1,0 +1,36 @@
+.delete-product-modal .modal-content {
+  max-width: 429px;
+  max-height: 130px;
+  margin: auto;
+  padding: 0;
+  color: #05bc52;
+  font-size: 16px;
+}
+
+.delete-product-modal h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 22px 0 0 0;
+}
+
+.delete-product-modal .modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.delete-product-modal button {
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 14px;
+  padding: 5px 27px;
+}
+
+.delete-product-modal .modal-footer {
+  border: none;
+}

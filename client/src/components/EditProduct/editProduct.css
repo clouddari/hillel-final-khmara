@@ -1,0 +1,61 @@
+.modal-content {
+  border-radius: 0;
+  border: none;
+  width: 429px;
+  height: 532px;
+}
+
+.custom-edit-modal {
+  background-color: #d9d9d9;
+}
+
+.custom-edit-modal form input {
+  background-color: #ffffff;
+  border-radius: 0;
+  box-shadow: none;
+  width: 360px;
+  margin: auto;
+}
+
+.custom-edit-modal form label {
+  background-color: #d9d9d9;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.custom-edit-modal .edit-groud {
+  background-color: #d9d9d9;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.edit-header {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+}
+
+.edit-header h4 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.modal-edit-footer {
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 0;
+}
+
+.modal-edit-footer button {
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 6px 25px;
+}
+
+.form-control:focus {
+  font-weight: 600;
+  border-color: #000000 !important;
+}
