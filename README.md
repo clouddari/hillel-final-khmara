@@ -34,24 +34,6 @@ It is built with **React + Vite** and communicates with a custom backend via API
 
 ---
 
-## 📁 Project Structure
-
-project-root/
-│
-├── client/ # React Frontend
-│ ├── src/ # Source files
-│ ├── dist/ # Production build (ignored in .gitignore)
-│ ├── package.json
-│ └── vite.config.js
-│
-├── server/ # Express Backend
-│ ├── routes/
-│ ├── data/
-│ └── index.js
-│
-└── README.md
-
-
 ## 🧠 Author
 
 **Dariia Khmara**  
