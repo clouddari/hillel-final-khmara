@@ -27,7 +27,7 @@ function ProductsPreview() {
 
       <div className="back-to-table-button">
         <Button
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/products")}
           className="rounded-0"
           type="submit"
         >

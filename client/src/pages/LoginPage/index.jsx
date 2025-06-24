@@ -27,7 +27,7 @@ function Login() {
     const data = await res.json();
     if (res.ok) {
       localStorage.setItem("token", data.token);
-      navigate("/");
+      navigate("/products");
     } else {
       setError(data.error);
     }
